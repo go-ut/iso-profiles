@@ -1,22 +1,38 @@
 ## Network
 avahi
 networkmanager
-networkmanager-openconnect
+#networkmanager-openconnect ### Problem with UART
 networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
 nss-mdns # NSS support for mDNS (optdepend for avahi)
 ntp
 mobile-broadband-provider-info
-modemmanager
+#modemmanager ### Problem with UART
 openresolv
 openssh
 samba
 usb_modeswitch
 
+### MY Net Utils
+youtube-dl
+telegram-desktop
+signal-desktop
+persepolis
+jq
+gping
+curlie
+xh
+nmap
+filezilla
+remmina
+gping
+httrack
+
 ## Btrfs
 grub-btrfs
 timeshift-autosnap-manjaro
+grub-theme-manjaro ### Theme for Grub
 
 ## Libraries for Sound/Audio/Video
 alsa-firmware
@@ -47,6 +63,12 @@ mtpfs
 udiskie
 udisks2
 
+### Disk Tools
+smartmontools ### For SMART Disks
+hddtemp	      ### For Disk Temparature
+restic        ### For Backup
+ifuse         ### For iphone Connection
+
 ## Fonts
 ttf-dejavu
 # cantarell-fonts        # Installed as gnome-themes-standard dependency
@@ -74,6 +96,8 @@ pamac-gtk
 
 ## Printing
 >extra manjaro-printer
+print-manager ### Better Printer Manager
+system-config-printer ### Needed for Brother
 
 ## Display manager
 lightdm
@@ -99,6 +123,9 @@ xfwm4
 
 ## XFCE Extras
 blueman
+bluez-plugins ### Bluetooth
+bluez-tools  ### Bluetooth
+bluez-utils ### Bluetooth
 ffmpegthumbnailer  # tumbler - for video thumbnails
 freetype2          # tumbler - for font thumbnails
 gnome-keyring      # fix wlan segfault
@@ -164,7 +191,7 @@ gcolor2
 gparted
 gufw
 >extra audacious
->extra hexchat
+#>extra hexchat ### Not Needed
 htop
 inxi
 #>extra libreoffice-still
@@ -178,21 +205,109 @@ manjaro-settings-manager-notifier
 >basic midori
 >extra mlocate
 mousepad
-### MY MODS
-gedit
 mugshot
 >basic parole # media player
->extra pidgin
+#>extra pidgin ### Unused to Removed
 powertop
 screenfetch
 evince
 >extra poppler-data  # CKJ support for pdf
 #>basic sylpheed # mail client
->extra thunderbird
+#>extra thunderbird  ### Make this optional as its seldom used
 >extra vlc
 >extra viewnior
 >extra xfburn
->extra yelp
+#>extra yelp ### Prevent issues with webkit2gtk bugs
+yelp-tools ### These are OK
+yelp-xsl ### These are OK
+
+### My Apps
+speedcrunch ### Faster Calculator
+gnome-disk-utility ### For Direct Disk Manipulation
+baobab             ### Get Disk Size and Allocation
+grsync             ### Graphical RSync
+zbar ### For Barcode/QR-Code Creation and Read
+usbview ### To Look at USB Devices
+simple-scan	### For Scanning
+cheese  ### For Web-Cam
+pdfarranger
+img2pdf
+pdftricks
+cherrytree
+imagemagick
+aspell
+aspell-en
+hyphen
+hyphen-en
+mythes-en
+audacity
+simplescreenrecorder
+xchm
+vidcutter
+mpv
+rhythmbox
+pandoc
+rofi
+unicode-emoji
+wallpapers-2018
+wallpapers-juhraya
+xournalpp
+gucharmap
+
+### MY Editors
+gedit
+gedit-plugins
+gvim
+emacs
+vim-airline
+vim-spell-en
+exa
+tmux
+tree
+bat
+stow
+screen
+meld
+gimp
+inkscape
+openscad
+freecad
+>extra libreoffice-fresh
+
+### Development
+ctags
+make
+cmake
+fossil
+git
+gitg
+entr
+shellcheck
+sqlitebrowser
+xclip
+go
+hashcat
+python-pyserial
+python-pygments
+python-pip
+python-virtualenv
+scons
+gforth	### Check if AUR Works
+the_silver_searcher
+tk
+upx
+flameshot
+screenkey
+dialog
+
+### Security
+keepassxc
+veracrypt
+bleachbit
+arch-audit
+paperkey
+patch
+yubikey-personalization-gui
 
 # Optional dependencies engrampa
 p7zip  # 7Z and ARJ archive support
@@ -243,3 +358,26 @@ manjaro-hotfixes
 >basic squashfs-tools
 xiccd # enable color profile settings
 tlp
+dpkg ### To be able tp decode Debian Packages
+ipw2100-fw ### Compatible Firmware
+ipw2200-fw ### Compatible Firmware
+usbutils ### More USB Utilities
+device-mapper ### Dev Support
+
+### Electronics & Embedded
+openocd
+avr-binutils
+avr-gcc
+avr-libc
+avrdude
+arduino
+moserial
+stlink
+picocom
+sdcc
+pulseview
+arm-none-eabi-binutils 
+arm-none-eabi-gcc 
+arm-none-eabi-gdb 
+arm-none-eabi-newlib
+
