@@ -16,23 +16,23 @@ usb_modeswitch
 
 ### MY Net Utils
 youtube-dl
-telegram-desktop
-signal-desktop
-persepolis
+#telegram-desktop
+#signal-desktop
+#persepolis
 jq
-gping
-curlie
+#gping
+#curlie
 xh
-nmap
+#nmap
 filezilla
 remmina
-gping
+#gping
 httrack
 
 ## Btrfs
 grub-btrfs
 #timeshift-autosnap-manjaro ### Unused
-grub-theme-manjaro ### Theme for Grub
+#grub-theme-manjaro ### Theme for Grub
 
 ## Libraries for Sound/Audio/Video
 alsa-firmware
@@ -96,8 +96,8 @@ pamac-gtk
 
 ## Printing
 >extra manjaro-printer
-print-manager ### Better Printer Manager
-system-config-printer ### Needed for Brother
+#print-manager ### Better Printer Manager
+#system-config-printer ### Needed for Brother
 
 ## Display manager
 lightdm
@@ -123,9 +123,9 @@ xfwm4
 
 ## XFCE Extras
 blueman
-bluez-plugins ### Bluetooth
-bluez-tools  ### Bluetooth
-bluez-utils ### Bluetooth
+#bluez-plugins ### Bluetooth
+#bluez-tools  ### Bluetooth
+#bluez-utils ### Bluetooth
 ffmpegthumbnailer  # tumbler - for video thumbnails
 freetype2          # tumbler - for font thumbnails
 gnome-keyring      # fix wlan segfault
@@ -234,7 +234,7 @@ pdfarranger
 img2pdf
 pdftricks
 cherrytree
-imagemagick
+#imagemagick
 aspell
 aspell-en
 hyphen
@@ -242,23 +242,23 @@ hyphen-en
 mythes-en
 audacity
 simplescreenrecorder
-xchm
+#xchm
 vidcutter
 mpv
 rhythmbox
-pandoc
-rofi
-unicode-emoji
-wallpapers-2018
-wallpapers-juhraya
-xournalpp
+#pandoc
+#rofi
+#unicode-emoji
+#wallpapers-2018
+#wallpapers-juhraya
+#xournalpp
 gucharmap
 caffeine-ng
 
 ### MY Editors
 gedit
 gedit-plugins
-gvim
+vim
 emacs
 vim-airline
 vim-spell-en
@@ -269,7 +269,7 @@ bat
 stow
 screen
 meld
-gimp
+#gimp
 #inkscape
 #openscad
 #freecad
@@ -358,24 +358,24 @@ manjaro-hotfixes
 >basic squashfs-tools
 xiccd # enable color profile settings
 tlp
-dpkg ### To be able tp decode Debian Packages
+#dpkg ### To be able tp decode Debian Packages
 usbutils ### More USB Utilities
-device-mapper ### Dev Support
+#device-mapper ### Dev Support
 
 ### Electronics & Embedded
 openocd
-avr-binutils
-avr-gcc
-avr-libc
+#avr-binutils
+#avr-gcc
+#avr-libc
 avrdude
-arduino
+#arduino
 moserial
 stlink
 picocom
-sdcc
+#sdcc
 pulseview
-arm-none-eabi-binutils 
-arm-none-eabi-gcc 
-arm-none-eabi-gdb 
-arm-none-eabi-newlib
+#arm-none-eabi-binutils 
+#arm-none-eabi-gcc 
+#arm-none-eabi-gdb 
+#arm-none-eabi-newlib
 
