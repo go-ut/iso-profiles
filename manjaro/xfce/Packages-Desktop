@@ -31,7 +31,7 @@ httrack
 
 ## Btrfs
 grub-btrfs
-timeshift-autosnap-manjaro
+#timeshift-autosnap-manjaro ### Unused
 grub-theme-manjaro ### Theme for Grub
 
 ## Libraries for Sound/Audio/Video
@@ -206,7 +206,7 @@ manjaro-settings-manager-notifier
 >extra mlocate
 mousepad
 mugshot
->basic parole # media player
+#>basic parole # media player ### Unused
 #>extra pidgin ### Unused to Removed
 powertop
 screenfetch
@@ -270,10 +270,10 @@ stow
 screen
 meld
 gimp
-inkscape
-openscad
-freecad
->extra libreoffice-fresh
+#inkscape
+#openscad
+#freecad
+#>extra libreoffice-fresh
 
 ### Development
 ctags
@@ -286,8 +286,8 @@ entr
 shellcheck
 sqlitebrowser
 xclip
-go
-hashcat
+#go
+#hashcat
 python-pyserial
 python-pygments
 python-pip
@@ -349,7 +349,7 @@ xorg-mkfontscale
 perl-file-mimeinfo
 xdg-utils
 #xdg-su
->extra timeshift
+#>extra timeshift ### Unused
 #>extra kernel-alive
 
 ## Misc
