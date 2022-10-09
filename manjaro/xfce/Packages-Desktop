@@ -253,6 +253,7 @@ wallpapers-2018
 wallpapers-juhraya
 xournalpp
 gucharmap
+caffeine-ng
 
 ### MY Editors
 gedit
@@ -292,7 +293,6 @@ python-pygments
 python-pip
 python-virtualenv
 scons
-gforth	### Check if AUR Works
 the_silver_searcher
 tk
 upx
@@ -359,8 +359,6 @@ manjaro-hotfixes
 xiccd # enable color profile settings
 tlp
 dpkg ### To be able tp decode Debian Packages
-ipw2100-fw ### Compatible Firmware
-ipw2200-fw ### Compatible Firmware
 usbutils ### More USB Utilities
 device-mapper ### Dev Support
 
