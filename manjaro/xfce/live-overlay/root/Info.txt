@@ -1,0 +1,1 @@
+This file is a test to check if the File is included in the Distro.

@@ -32,7 +32,6 @@ httrack
 ## Btrfs
 grub-btrfs
 #timeshift-autosnap-manjaro ### Unused
-#grub-theme-manjaro ### Theme for Grub
 
 ## Libraries for Sound/Audio/Video
 alsa-firmware
@@ -89,10 +88,10 @@ terminus-font
 >extra apparmor
 #>extra gnome-software-snap
 pamac-gtk
->extra snapd
->extra snapd-glib
->extra pamac-snap-plugin
->extra pamac-flatpak-plugin
+#>extra snapd  ### Unused
+#>extra snapd-glib  ### Unused
+#>extra pamac-snap-plugin  ### Unused
+#>extra pamac-flatpak-plugin  ### Unused
 
 ## Printing
 >extra manjaro-printer
@@ -139,7 +138,7 @@ thunar-archive-plugin
 thunar-media-tags-plugin
 # >extra xfce4-artwork
 xfce4-battery-plugin
-xfce4-clipman-plugin
+#xfce4-clipman-plugin  ### Unused
 >extra xfce4-cpufreq-plugin
 >extra xfce4-cpugraph-plugin
 # xfce4-datetime-plugin
@@ -153,7 +152,7 @@ xfce4-clipman-plugin
 >extra xfce4-netload-plugin
 >extra xfce4-notes-plugin
 xfce4-notifyd
-xfce4-screenshooter
+#xfce4-screenshooter  ### Unused
 >extra xfce4-sensors-plugin
 >extra xfce4-smartbookmark-plugin
 >extra xfce4-systemload-plugin
@@ -249,8 +248,6 @@ rhythmbox
 #pandoc
 #rofi
 #unicode-emoji
-#wallpapers-2018
-#wallpapers-juhraya
 #xournalpp
 gucharmap
 caffeine-ng
@@ -269,7 +266,6 @@ bat
 stow
 screen
 meld
-#gimp
 #inkscape
 #openscad
 #freecad
@@ -308,6 +304,7 @@ arch-audit
 paperkey
 patch
 yubikey-personalization-gui
+seahorse
 
 # Optional dependencies engrampa
 p7zip  # 7Z and ARJ archive support
